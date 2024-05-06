@@ -1,0 +1,65 @@
+site_name: "water superhack guide"
+site_url: https://Scamazon-Development.github.io/water-superhack-guide
+repo_url: https://github.com/Scamazon-Development/water-superhack-guide
+repo_name: water-superhack-guide
+
+edit_uri: edit/main/docs/
+
+nav:
+  - "Home": "index.md"
+theme:
+  language: en
+  name: material
+  features:
+    - navigation.indexes 
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.tabs.sticky
+    - navigation.top
+    - header.autohide
+    - content.action.edit
+    - content.action.view
+    - content.tooltips
+
+
+  icon:
+    logo: material/book
+    repo: fontawesome/brands/github 
+    edit: material/pencil 
+    view: material/code-tags
+
+  palette:
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+      primary: green
+      accent: green
+
+extra:
+  consent:
+    title: Cookies
+    description: >- 
+      yes we use them too
+    actions:
+      - accept
+  analytics:
+    provider: google
+    property: G-M4KZH1FJCC
+
+
+copyright: >
+  I am not responsible for any troube you get into by using anything on this site.
+  <br />
+  <a href="#__consent">Cookies</a>
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
